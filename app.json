@@ -1,8 +1,8 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "name": "Judo Tech",
+  "description": "POC Heroku + Node.js",
+  "repository": "https://github.com/wmkondo/judotech",
+  "logo": "http://judotech.herokuapp.com/lang-logo.png",
   "keywords": ["node", "express", "static"],
   "image": "heroku/nodejs"
 }
