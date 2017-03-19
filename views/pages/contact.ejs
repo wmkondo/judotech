@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+  <div class="jumbotron text-rigth">
+    <div class="container">
+      <h1>Contato</h1>
+    </div>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      Você pode entrar em contato conosco pelo telefone <b>13 3821 2801</b>, pelo
+      e-mail <b><a href="mailto:arjuregistro@yahoo.com.br?Subject=Contato"
+      target="_top">arjuregistro@yahoo.com.br</a></b>.<br />
+      Se preferir, preencha o
+      formulário abaixo e entraremos em contato assim que possível.
+
+    <hr>
+
+      <form>
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="name">Seu nome:</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="email">Seu e-mail:</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="mobile">Celular:</label>
+            <input type="text" class="form-control" id="mobile">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="subject">Assunto:</label>
+            <input type="text" class="form-control" id="subject">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea class="form-control" id="message"></textarea>
+          </div>
+        </div>
+        <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div> <!-- row -->
+  <% include ../partials/footer.ejs %>
+
+</div>
+
+</body>
+</html>
