@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+  <div class="jumbotron text-rigth">
+    <div class="container">
+      <h1>Sou Judoca e quero visitar</h1>
+    </div>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      Se você já é atleta, venha nos visitar e treinar um dia junto com a gente
+      sem compromisso.<br />
+      Entre em contato com a secretaria, ou preencha o formulário abaixo e
+      aguarde nosso contato de confirmação.
+    <hr>
+
+      <form>
+
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="name">Seu nome:</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="phone">Seu telefone:</label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="mobile">Seu celular:</label>
+            <input type="text" class="form-control" id="mobile">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="born">Data de Nascimento:</label>
+            <input type="text" class="form-control" id="born">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="gender">Sexo:</label>
+            <select type="text" class="form-control" id="gender">
+              <option value="M">Masculino</option>
+              <option value="F">Femenino</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="weight">Peso (kg):</label>
+            <input type="text" class="form-control" id="height">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="kyu">Graduação:</label>
+            <select type="text" class="form-control" id="kyu">
+              <option value="1">shodan ou +</option>
+              <option value="1">1° kyu</option>
+              <option value="1">2° kyu</option>
+              <option value="1">3° kyu</option>
+              <option value="1">4° kyu</option>
+              <option value="1">5° kyu</option>
+              <option value="1">6° kyu ou -</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div> <!-- row -->
+  <% include ../partials/footer.ejs %>
+
+</div>
+
+</body>
+</html>

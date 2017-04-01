@@ -69,6 +69,10 @@ app.get('/contact', function(request, response) {
   response.render('pages/contact');
 });
 
+app.get('/guest', function(request, response) {
+  response.render('pages/guest');
+});
+
 app.get('/location', function(request, response) {
   response.render('pages/location');
 });
